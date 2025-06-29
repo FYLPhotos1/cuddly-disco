@@ -3,6 +3,15 @@ body {
   text-align: center;
   margin-top: 40px;
 }
+
+#toggleTheme {
+  margin-bottom: 20px;
+}
+
+body.dark-mode {
+  background: #222;
+  color: #fff;
+}
 #popup {
   position: fixed;
   top: 0;
