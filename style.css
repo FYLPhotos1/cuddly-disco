@@ -23,3 +23,20 @@ body {
 .hidden {
   display: none;
 }
+
+/* Title page styles */
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.title-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.start-button {
+  font-size: 24px;
+  padding: 10px 20px;
+}
